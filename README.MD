@@ -31,10 +31,6 @@ System:
     npm               : 5.5.1
     OS                : Windows 10
 
-Environment Variables:
-
-    ANDROID_HOME : C:\Users\crest\AppData\Local\Android\sdk
-
 Misc:
 
     backend : pro
