@@ -2,13 +2,13 @@ Source:
 https://ionicframework.com/docs/native/local-notifications/
 
 Plugins:
-$ ionic cordova plugin add cordova-plugin-local-notification
+$ ionic cordova plugin add cordova-plugin-local-notification <br />
 $ npm install --save @ionic-native/local-notifications
 
 Note:
 Notifaction will work only on device/mobile or emulator.
 
-======================================================================
+====================================================================== <br />
 $ ionic info
 
     @ionic/cli-utils  : 1.19.0
