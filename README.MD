@@ -8,6 +8,12 @@ $ npm install --save @ionic-native/local-notifications
 Note:  <br />
 Notifaction will work only on device/mobile or emulator.
 
+Notifaction ICON (small icon) <br />
+generate online: http://romannurik.github.io/AndroidAssetStudio/icons-notification.html <br/>
+Copy drawable-hdpi/mdpi/xhdpi/xxhdpi/xxxhdpi (all) folder to platforms/android/res <br/>
+
+    smallIcon: 'res://iconNameWithoutExtention',
+
 ====================================================================== <br />
 $ ionic info
 

@@ -17,11 +17,15 @@ export class HomePage {
   }
 
   scheduleNotification() {
+
     this.localNotifications.schedule({
       id: 1,
       title: 'Attention',
       text: 'local Notification',
-      at: new Date(new Date().getTime() + 5 * 1000)   //After 5sec Notifaction will appier
+      color: '#ff9d00',  // or 'red'
+      icon: 'https://icon-icons.com/icons2/1283/PNG/512/1497619898-jd24_85173.png',
+      smallIcon: 'res://ic_stat_touch_app',
+      at: new Date(new Date().getTime())   //After 5sec Notifaction will appier
     });
   }
 
