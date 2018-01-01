@@ -1,7 +1,7 @@
 Source:
 https://ionicframework.com/docs/native/local-notifications/
 
-Plugins:
+Plugins: <br />
 $ ionic cordova plugin add cordova-plugin-local-notification <br />
 $ npm install --save @ionic-native/local-notifications
 
@@ -12,7 +12,7 @@ Notifaction ICON (small icon) <br />
 generate online: http://romannurik.github.io/AndroidAssetStudio/icons-notification.html <br/>
 Copy drawable-hdpi/mdpi/xhdpi/xxhdpi/xxxhdpi (all) folder to platforms/android/res <br/>
 
-  smallIcon: 'res://iconNameWithoutExtention',
+    smallIcon: 'res://iconNameWithoutExtention',
 
 ====================================================================== <br />
 $ ionic info
